@@ -1,0 +1,8 @@
+a:link {
+    text-decoration: none;
+}
+
+li {
+    display: inline;
+    padding: 2em;
+}

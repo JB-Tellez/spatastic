@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Spatastic</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/app.css">
   <!-- Start Single Page Apps for GitHub Pages -->
   <script type="text/javascript">
     // Single Page Apps for GitHub Pages
@@ -40,19 +42,20 @@
 
 <body>
 
-  <h1>Single Page App on Heroku</h1>
-  <p>You can refresh page from any route. Really, try it!</p>
   <nav>
     <ul>
       <li>
-        <a href="/">home</a>
+        <a href="/" class="icon-home"></a>
       </li>
       <li>
-        <a href="/about">about</a>
+        <a href="/about" class="icon-price-tag"></a>
       </li>
-      <li><a href="/nested/route">nested route</a></li>
+      <li><a href="/nested/route" class="icon-fire"></a></li>
     </ul>
   </nav>
+  <h1>Single Page App on Heroku</h1>
+  <p>You can refresh page from any route. Really, try it!</p>
+ 
   <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
   <script>
     page('/', () => console.log('home'));
